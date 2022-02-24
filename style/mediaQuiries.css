@@ -1,0 +1,175 @@
+:root{
+     --main-heading:'GROBOLD', sans-serif;
+     --pink-clr:#0f0d0e;
+     --light-blue:#C7C6FA;
+     --purple-clr:#A461E5;
+}
+
+
+@media only screen and (max-width:990px) {
+     .items{
+          grid-template-columns:1fr 1fr;
+     }  
+     .about-main{
+          padding: 0 2rem;
+     }  
+     .whitelist{
+          padding: 0 2rem;
+          padding-top: 4rem;
+     } 
+     .about-banners{
+          grid-template-columns: 1fr;
+          margin-top: 2rem;
+     }
+     .team{
+          margin-top: 127rem;
+     }
+     .about{
+          padding: 2rem 6rem;
+          padding-top: 26rem;
+          margin-top: 41.7rem;
+          padding-bottom: 6rem;
+     }
+     .overviews{
+          grid-template-columns: 1fr 1fr 1fr;
+     }
+     .working{
+          padding: 2rem 4rem ;
+     }
+}
+@media only screen and (max-width:750px) {
+     .activity-section{
+          display: flex;
+          flex-direction: column;
+     }
+     .about{
+          padding: 2rem;
+          padding-bottom: 6rem;
+          padding-top: 15rem;
+     }
+     .whitelist .left a{
+          font-size: .8rem;
+     }
+     .team{
+          margin-top: 175rem;
+     }
+     .footer{
+          grid-template-columns: 1fr 1fr;
+          height: auto;
+     }
+     .banner .right a{
+          font-size: .7rem;
+     }
+     
+}
+@media only screen and (max-width:600px) {
+     .navbar .left input{
+          display: none;
+     }
+     .open-menu{
+          height: 100vh;
+          background-size: cover;
+     }
+     .close{
+          margin-bottom: 0;
+     }
+     .open-menu a{
+          font-size: 1.1rem;
+     }
+     .items{
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 2rem;
+     }
+     .about{
+          padding: 2rem;
+          padding-bottom: 6rem;
+          margin-top: 78rem;
+          padding-top: 15rem;
+     }
+     .about-main{
+          padding: 0;
+     }
+     .whitelist{
+          padding: 0;
+          padding-top: 4rem;
+     }
+     .whitelist .left a{
+          font-size: .8rem;
+     }
+     .overviews{
+          grid-template-columns: 1fr 1fr;
+     }
+     .working{
+          padding: 2rem ;
+     }
+     .slider{
+          display: none;
+     }
+     .banner .right h1{
+          font-size: 1.1rem;
+          line-height: 1.7rem;
+     }
+     .members{
+          grid-template-columns: 1fr;
+     }
+     .footer{
+          grid-template-columns: 1fr;
+          background-position: right top;
+          padding: 2rem ;
+     }
+     .footer .widget-1 img{
+          width: 10rem;
+     }
+     .more{
+          padding: 2rem ;
+          padding-bottom: 30rem;
+     }
+     .team{
+          margin-top: 160rem;
+     }
+     .join, .hold{
+          padding: 2rem ;
+     }
+     .banner{
+          padding: 1rem;
+     }
+     .banner .left img{
+          margin-bottom: -1rem;
+          width: 100;
+          display: none;
+     }
+     .whitelist{
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+     }
+     .header img{
+          width: 20rem;
+     }
+     .about-main h1{
+          font-size: 1.1rem;
+          padding-top: 5rem;
+     }
+     .whitelist .right h1, .banner .right h1{
+          font-size: 1rem;
+     }
+     .overview-box h1, .vol h1, .vol-box h1, .graph h1, .data .mid h1, .data .mid h1 span, .data .right{
+          font-size: .9rem;
+     }
+     .about-main p, .whitelist .right p{
+          font-weight: normal;
+     }
+
+}
+@media only screen and (max-width:400px){
+     .team{
+          margin-top: 120rem;
+     }
+     .header{
+          padding-top: 9rem;
+     }
+     .header h3{
+          padding: 2rem 0;
+     }
+}
